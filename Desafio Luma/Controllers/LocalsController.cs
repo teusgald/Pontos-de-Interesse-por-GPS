@@ -41,6 +41,8 @@ namespace Desafio_Luma.Controllers
             }
 
             return View(local);
+
+           
         }
 
         // GET: Locals/Create
