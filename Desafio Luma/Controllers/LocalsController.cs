@@ -160,12 +160,12 @@ namespace Desafio_Luma.Controllers
             //lista.CordenadaY = CordenadaY;
             //lista.CordenadaX = CordenadaX;
 
-            //Calculo = (int)Math.Sqrt((CordenadaX * CordenadaX) + (CordenadaY + CordenadaY));
+            //Calculo = (int)Math.Sqrt((CordenadaX * CordenadaX) + (CordenadaY * CordenadaY));
 
-            return View(_context.Local.Where(L => L.CordenadaY <= 10 || L.CordenadaY >= 10 && L.CordenadaX <= 10 || L.CordenadaX >= 10).ToListAsync());
+            return View(await _context.Local.Where(L => L.CordenadaX <= 10 || L.CordenadaX >=10 && L.CordenadaY <= 10 || L.CordenadaY >= 10).Take(3).ToListAsync());
 
 
-            
+
 
         }
     }
