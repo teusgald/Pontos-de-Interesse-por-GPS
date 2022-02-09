@@ -151,5 +151,22 @@ namespace Desafio_Luma.Controllers
         {
             return _context.Local.Any(e => e.Id == id);
         }
+        public async Task<IActionResult> LocalProx()
+        {
+            //int CordenadaX = 0; int CordenadaY = 0; int Calculo = 0;
+
+            //Local lista = new Local();
+
+            //lista.CordenadaY = CordenadaY;
+            //lista.CordenadaX = CordenadaX;
+
+            //Calculo = (int)Math.Sqrt((CordenadaX * CordenadaX) + (CordenadaY + CordenadaY));
+
+            return View(_context.Local.Where(L => L.CordenadaY <= 10 || L.CordenadaY >= 10 && L.CordenadaX <= 10 || L.CordenadaX >= 10).ToListAsync());
+
+
+            
+
+        }
     }
 }

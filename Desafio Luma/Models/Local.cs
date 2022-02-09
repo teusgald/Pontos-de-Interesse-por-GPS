@@ -15,5 +15,6 @@ namespace Desafio_Luma.Models
         public int CordenadaX { get; set; }
 
         public int CordenadaY{ get; set; }
+
     }
 }

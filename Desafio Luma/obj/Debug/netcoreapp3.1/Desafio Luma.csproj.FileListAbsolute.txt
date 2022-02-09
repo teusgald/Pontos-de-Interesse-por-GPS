@@ -138,6 +138,7 @@ C:\Users\User\source\repos\Desafio Luma\Desafio Luma\obj\Debug\netcoreapp3.1\Raz
 C:\Users\User\source\repos\Desafio Luma\Desafio Luma\obj\Debug\netcoreapp3.1\Razor\Views\Locals\Details.cshtml.g.cs
 C:\Users\User\source\repos\Desafio Luma\Desafio Luma\obj\Debug\netcoreapp3.1\Razor\Views\Locals\Edit.cshtml.g.cs
 C:\Users\User\source\repos\Desafio Luma\Desafio Luma\obj\Debug\netcoreapp3.1\Razor\Views\Locals\Index.cshtml.g.cs
+C:\Users\User\source\repos\Desafio Luma\Desafio Luma\obj\Debug\netcoreapp3.1\Razor\Views\Locals\LocalProx.cshtml.g.cs
 C:\Users\User\source\repos\Desafio Luma\Desafio Luma\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\User\source\repos\Desafio Luma\Desafio Luma\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\User\source\repos\Desafio Luma\Desafio Luma\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
